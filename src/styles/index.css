@@ -9,3 +9,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.light-container {
+  width: 100px;
+  height: 400ox;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  /* border-radius: 100%; */
+}
+
+.light-r {
+  background-color: #ff0000;
+}
+.light-y {
+  background-color: #ffcc00;
+}
+.light-g {
+  background-color: #009900;
+}
