@@ -22,10 +22,23 @@
 
 .light-r {
   background-color: #ff0000;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 9px 4px #747de8;
+  }
 }
 .light-y {
   background-color: #ffcc00;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 9px 4px #747de8;
+  }
 }
 .light-g {
   background-color: #009900;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 9px 4px #747de8;
+  }
 }
