@@ -11,12 +11,12 @@
 */
 .light-container {
   width: 100px;
-  height: 400ox;
+  height: 300px;
 }
 
 .light {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   padding: 0;
   margin: 0;
 }
