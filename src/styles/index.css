@@ -30,22 +30,24 @@
   margin: 0;
   border-radius: 50%;
   background-color: #fefefe;
+}
 
-  & + .red {
-    background-color: #ff0000;
-  }
-  & .yellow {
-    background-color: #ffcc00;
-  }
-  & .green {
-    background-color: #009900;
-  }
-  & .purple {
-    background-color: #747de8;
-  }
-  &:focus,
-  :hover,
-  .selected {
-    box-shadow: 0px 0px 50px 20px #f8ffcc;
-  }
+.red {
+  background-color: #ff0000;
+}
+
+.yellow {
+  background-color: #ffcc00;
+}
+
+.green {
+  background-color: #009900;
+}
+
+.purple {
+  background-color: #747de8;
+}
+
+.selected {
+  box-shadow: 0px 0px 50px 20px #f8ffcc;
 }
