@@ -10,8 +10,8 @@
 
 */
 /* Place Holder for future use */
-.wrapper {
-}
+/* .wrapper {
+} */
 
 .hanger {
   width: 10px;
@@ -30,21 +30,21 @@
   margin: 0;
 }
 
-.light-r {
+.red {
   background-color: #ff0000;
   &:hover,
   &:focus {
     box-shadow: 0px 0px 9px 14px #747de8;
   }
 }
-.light-y {
+.yellow {
   background-color: #ffcc00;
   &:hover,
   &:focus {
     box-shadow: 0px 0px 9px 14px #747de8;
   }
 }
-.light-g {
+.green {
   background-color: #009900;
   &:hover,
   &:focus {
@@ -52,7 +52,7 @@
   }
 }
 
-.light-p {
+.purple {
   background-color: #bf40bf;
   &:hover,
   &:focus {
