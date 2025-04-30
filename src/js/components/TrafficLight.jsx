@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const TrafficLight = () => {
-  const [color, setColor] = useState("red");
+  const [color, setColor] = useState("");
 
   return (
     <div className="wrapper d-flex flex-column justify-content-start align-items-center">
