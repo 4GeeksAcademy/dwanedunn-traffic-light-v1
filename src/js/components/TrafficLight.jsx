@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const TrafficLight = () => {
-  const [state, setState] = useState("");
+  const [color, setColor] = useState("");
   return (
     <>
       <div className="wrapper d-flex flex-column justify-content-start align-items-center">
@@ -10,20 +10,20 @@ const TrafficLight = () => {
           <div
             className="light red"
             onClick={() => {
-              setState({ selected: "red" });
+              setColor("red");
             }}
           ></div>
           <div
             className="light yellow"
             onClick={() => {
-              setState({ selected: "yellow" });
+              setColor("Yellow");
             }}
           ></div>
 
           <div
             className="light green"
             onClick={() => {
-              setState({ selected: "green" });
+              setColor("green");
             }}
           ></div>
         </div>
