@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const TrafficLight = () => {
   const [state, setState] = useState("");
-
   return (
     <>
       <div className="wrapper d-flex flex-column justify-content-start align-items-center">
