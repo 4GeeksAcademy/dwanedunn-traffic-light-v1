@@ -9,6 +9,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+// Place Holder for future use
+.wrapper {
+}
+
+.hanger {
+  width: 10px;
+  height: 80px;
+}
+
 .light-container {
   width: 100px;
   height: 300px;
@@ -23,7 +33,6 @@
 
 .light-r {
   background-color: #ff0000;
-
   &:hover,
   &:focus {
     box-shadow: 0px 0px 9px 14px #747de8;
