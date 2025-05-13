@@ -13,18 +13,20 @@ const TrafficLight = () => {
         <div className="hanger bg-dark"></div>
         <div className="light-container bg-dark rounded d-flex flex-column justify-content-evenly align-items-center pb-4">
           <div
-            className={`light red ${selectedColor === 'red' ? 'glow' : ''}`}
+            className={`light red ${selectedColor === 'red' ? 'selected' : ''}`}
             onClick={() => handleClick('red')}
           ></div>
           <div
             className={`light yellow ${
-              selectedColor === 'yellow' ? 'glow' : ''
+              selectedColor === 'yellow' ? 'selected' : ''
             }`}
             onClick={() => handleClick('yellow')}
           ></div>
 
           <div
-            className={`light green ${selectedColor === 'green' ? 'glow' : ''}`}
+            className={`light green ${
+              selectedColor === 'green' ? 'selected' : ''
+            }`}
             onClick={() => handleClick('green')}
           ></div>
         </div>
