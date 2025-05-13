@@ -1,7 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 const TrafficLight = () => {
-  const [color, setColor] = useState("");
+  const [selectedColor, setSelectedColor] = useState('');
+
+  const handleClick = (color) => {
+    setSelectedColor(color);
+  };
+
   return (
     <>
       <div className="wrapper d-flex flex-column justify-content-start align-items-center">
@@ -10,20 +15,20 @@ const TrafficLight = () => {
           <div
             className="light red"
             onClick={() => {
-              setColor("red");
+              setColor('red');
             }}
           ></div>
           <div
             className="light yellow"
             onClick={() => {
-              setColor("Yellow");
+              setColor('Yellow');
             }}
           ></div>
 
           <div
             className="light green"
             onClick={() => {
-              setColor("green");
+              setColor('green');
             }}
           ></div>
         </div>
